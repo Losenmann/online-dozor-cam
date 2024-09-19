@@ -10,7 +10,7 @@ import argparse
 parser = argparse.ArgumentParser(
     prog='Online Dozor Get Cam',
     description='Online Dozor integration for Home Assistant or Offline Mode',
-    epilog='https://github.com/Losenmann/online-dozor-getcam'
+    epilog='https://github.com/Losenmann/online-dozor-cam'
 )
 parser.add_argument('-p', '--phone', type=str, help='User phone number')
 args = parser.parse_args()
